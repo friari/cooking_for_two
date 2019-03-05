@@ -3,6 +3,8 @@ class Cookbook
     def initialize
         @recipes = {}
     end
+    
+    attr_reader :recipes
    
     #a way to add the key value pairs from the hash to the instance of Cookbook
     def add_recipe(name, ingredients, method, cooking_time)
@@ -31,5 +33,14 @@ class Cookbook
          end
          gluten_free_key
     end
+    #custom fetch method will display data in right format
+    def custom_fetch(recipe)
+        @recipes.fetch(recipe.to_sym)
+    end
+    
+    def random_key
+        @recipes[@recipes.keys.sample]
+    end
+
 
 end

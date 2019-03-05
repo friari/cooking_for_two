@@ -55,4 +55,6 @@ Lemon wedge, to serve\n",
 2.Combine tomatoes, parsley and oil. Spread chickpea mixture over toast. Top with tomato salad. Serve with a lemon wedge.\n",
 "Prep Time 5 minutes"
 
-p vegan_snacks.fetch[:smashed_chickpea_bruschetta]
+  p vegan_snacks.return_gluten_free_key 
+
+#puts vegan_snacks.custom_fetch "smashed_chickpea_bruschetta"
