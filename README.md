@@ -118,3 +118,9 @@ Coding (Cookbook class) - 4 hr
 Coding (Objects) - 1.5 hr
 Coding (index.rb) - 4 hr
 README.md - 2 hr
+
+Ethical and moral concerns
+****************************
+The app could potentially be isolating to single people, especially in its current iteration where there's no option for single serving meals. In the future this could be changed to be a bit more sensitive. Although why you'd use an app called cooking for two to find a meal for one is beyond us. 
+As this is an open source project it's possible that someone could add non vegan recipes to vegan cookbooks or to add recipes that don't conform to some other criteron 
+At this stage in development the app doesn't cater to any more diet types and there are a lot of culturally significant dietary choices (halal, kosher, etc ) that aren't being catered for. There's potential for users to be offended or perhaps unwittingly offend their date by cooking the wrong type of meal 
