@@ -5,21 +5,26 @@ Description
 Can't decide what to cook for your date?
 Cooking For Two is a terminal app that allows you to impress a special someone in your life with delicious date night recipes for a variety of situations! Whether you want to make a meal, a dessert or simply a light snack, Cooking For Two has the recipe for you!
 Cooking For Two takes into account your date's dietary preferences, with options for vegans and people who are gluten intolerant.
+STRETCH GOAL -
 If you don't like a recipe, let us know and we will never suggest it to you again! If you LOVE a recipe, tell us and it will be added to your favourites!
-
-
+ANOTHER STRETCH GOAL - 
+We would like to implement a feature that writes the ingredients to a text file that can then be used as the user's shopping list.
 
 Instructions
 ****************************
+1. In terminal, make sure you are in the directory that houses the program.
+2. type "cd src" to take you to the source code files so you can run the program.
+3. Run the program by typing "ruby index.rb"
+4. 
 
-
-Planning
+PLANNING
 ****************************
+
 After iterating through a couple ideas in a brainstorm,
-![a relative link](docs/brainstorm.jpg)
+[brainstorm](docs/brainstorm.jpg)  
 We decided to work on an app that draws on a database of recipes and outputs a recipe that will be suitable for the user.
 Initially we thought it might be nice if the app starts by asking the user how many people they are cooking for
-![a relative link](docs/how_many_people.jpg)
+![a relative link](docs/how_many_people.jpg)  
 but then we decided that since we only have two days to create this app it would be necessary to simplify the concept. We did so by deciding the app would be for people who are cooking for a date.
 
 The name "Cooking For Two" emerged naturally from this process, and we drew up a rough flow chart indicating how the app would run.
@@ -64,7 +69,25 @@ as well as keeping up constant communication via Slack.
 ![a relative link](docs/slack_3.jpg)
 ![a relative link](docs/slack_4.jpg)
 ![a relative link](docs/slack_5.jpg)
+![a relative link](docs/slack_6.jpg)
+![a relative link](docs/slack_7.jpg)
+![a relative link](docs/slack_8.jpg)
 
-As Ari worked on the Description and Planning section of our README.md file, Alex put together a .rb doc that defined a Cookbook class.
+There were three documents to put together
+- a parent Cookbook class
+- different objects based on the meal requirements
+- an index.rb file from which our program would run
 
-Ari then coded a doc that referenced the Cookbook class and created objects for each potential outcome as Alex worked on the control flow of the program.
+MORE TRELLO SCREENSHOTS
+[link 1](docs/trello_1.jpg)
+[link 2](docs/trello_2.jpg)
+[link 3](docs/trello_3.jpg)
+
+Timeline
+****************************
+Brainstorm - 1.5 hr
+Planning - 3 hr
+Coding (Cookbook class) - 4 hr
+Coding (Objects) - 1.5 hr
+Coding (index.rb) - 4 hr
+README.md - 2 hr
