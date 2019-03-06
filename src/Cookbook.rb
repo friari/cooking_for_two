@@ -24,6 +24,7 @@ class Cookbook
     end
    
     #checks if the last 3 characters of recipe symbol = "_gf" if true returns that key
+    #planned future feature to add gluten_free_key to an array and return random key from that array with .sample so we can have multiple gluten free options 
     
     def return_gluten_free_key
        gluten_free_key = ""
@@ -40,7 +41,9 @@ class Cookbook
         @recipes.fetch(recipe.to_sym)
     end
     
+     #takes a random key from @recipes hash, outputs that key as a colorized string and then outputs the value array in a readable format
     def output_recipe
+        system "clear"
         key = @recipes.keys.sample
         puts key.to_s.colorize(:magenta)
         puts @recipes[key]  
