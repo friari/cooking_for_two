@@ -1,5 +1,8 @@
 README
 
+COOKING FOR TWO
+By Ari Friedgut and Alex Baulderstone
+
 Description
 ****************************
 Can't decide what to cook for your date?
@@ -15,7 +18,27 @@ Instructions
 1. In terminal, make sure you are in the directory that houses the program.
 2. type "cd src" to take you to the source code files so you can run the program.
 3. Run the program by typing "ruby index.rb"
-4. 
+4. Answer the prompt for your name by typing in your name.
+5. Answer the following prompts by typing 'yes' or 'no'.
+6. Receive the perfect recipe for date night!
+
+Screenshots of the Program
+****************************
+![program1](docs/program1.png)
+![program2](docs/program1.png)
+![program3](docs/program1.png)
+![program4](docs/program1.png)
+![program5](docs/program1.png)
+![program6](docs/program1.png)
+
+Screenshots of the Code
+****************************
+![cookbook1](docs/cookbook_class1.png)
+![cookbook2](docs/cookbook_class2.png)
+![index1](docs/index1.png)
+![index2](docs/index2.png)
+![index3](docs/index3.png)
+![index4](docs/index4.png)
 
 PLANNING
 ****************************
@@ -78,10 +101,14 @@ There were three documents to put together
 - different objects based on the meal requirements
 - an index.rb file from which our program would run
 
-MORE TRELLO SCREENSHOTS
-[link 1](docs/trello_1.jpg)
-[link 2](docs/trello_2.jpg)
-[link 3](docs/trello_3.jpg)
+MORE TRELLO SCREENSHOTS  
+[link 1](docs/trello_1.jpg)  
+[link 2](docs/trello_2.jpg)  
+[link 3](docs/trello_3.jpg)  
+
+FLOWCHART
+****************************
+![flowchart](docs/cooking_for_two.jpg)
 
 Timeline
 ****************************
