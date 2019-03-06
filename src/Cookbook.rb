@@ -1,8 +1,12 @@
+require "colorize"
+require "colorized_string"
 class Cookbook
     #on intalizing a new instance of Cookbook an empty hash is created  
     def initialize
         @recipes = {}
     end
+    
+    attr_reader :recipes
    
     #a way to add the key value pairs from the hash to the instance of Cookbook
     def add_recipe(name, ingredients, method, cooking_time)
@@ -31,5 +35,16 @@ class Cookbook
          end
          gluten_free_key
     end
+    #custom fetch method will display data in right format
+    def custom_fetch(recipe)
+        @recipes.fetch(recipe.to_sym)
+    end
+    
+    def output_recipe
+        key = @recipes.keys.sample
+        puts key.to_s.colorize(:magenta)
+        puts @recipes[key]  
+    end
+
 
 end
