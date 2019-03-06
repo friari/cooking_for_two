@@ -1,4 +1,6 @@
 require_relative "Cookbook"
+require "colorize"
+require "colorized_string"
 vegan_snacks = Cookbook.new
 
 vegan_snacks.add_recipe "Vegan Nacho Cheese_gf", "INGREDIENTS\n
@@ -422,6 +424,7 @@ Icing sugar, to dust\n\n",
 
         def output_gf_recipe (argument)
             gf_key = argument.return_gluten_free_key
+            puts gf_key
             puts argument.custom_fetch gf_key
         end
 
@@ -461,7 +464,7 @@ case meal_choice
                 output_gf_recipe vegan_snacks
             else 
                 #use the vegan snack cookbook on its own
-                puts vegan_snacks.random_key 
+                vegan_snacks.output_recipe 
             end
 
         else 
@@ -471,7 +474,7 @@ case meal_choice
                 output_gf_recipe snacks
             else
                 #use non vegan snack cookbook on its own
-                puts snacks.random_key
+                snacks.output_recipe
             end
         end
         
@@ -483,7 +486,7 @@ case meal_choice
                 output_gf_recipe vegan_mains
             else
                 #use vegan main meal cookbook on it's own
-                puts vegan_mains.random_key
+                vegan_mains.output_recipe
             end
         else 
             puts "Cool so a #{meal_choice}"
@@ -492,7 +495,7 @@ case meal_choice
                 output_gf_recipe mains
              else
               # use non vegan main meal cookbook on it's own
-              puts mains.random_key
+               mains.output_recipe
              end
 
         end
@@ -505,7 +508,7 @@ case meal_choice
             
             else 
                 #use vegan dessert cookbook on its own
-                puts vegan_desserts.random_key
+                vegan_desserts.output_recipe
             end
 
         else 
@@ -515,7 +518,7 @@ case meal_choice
              output_gf_recipe desserts
             else
                 #use non vegan cookbook on its own 
-             puts desserts.random_key
+            desserts.output_recipe
             end
         end
     end

@@ -1,3 +1,5 @@
+require "colorize"
+require "colorized_string"
 class Cookbook
     #on intalizing a new instance of Cookbook an empty hash is created  
     def initialize
@@ -38,8 +40,10 @@ class Cookbook
         @recipes.fetch(recipe.to_sym)
     end
     
-    def random_key
-        @recipes[@recipes.keys.sample]
+    def output_recipe
+        key = @recipes.keys.sample
+        puts key.to_s.colorize(:magenta)
+        puts @recipes[key]  
     end
 
 

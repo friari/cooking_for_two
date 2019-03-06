@@ -1,5 +1,4 @@
 require_relative "Cookbook"
-
 vegan_snacks = Cookbook.new
 
 vegan_snacks.add_recipe "Vegan Nacho Cheese_gf", "INGREDIENTS\n
@@ -101,12 +100,12 @@ Finely grated zest and juice of 1 lemon, plus extra wedges to serve\n
 2 eggs, lightly beaten\n
 1 1/2 cups (75g) panko breadcrumbs\n
 Sunflower oil, to deep-fry\n
-1/2 cup (150g) aioli, combined with 1/2 teaspoon cayenne pepper\n\n"
+1/2 cup (150g) aioli, combined with 1/2 teaspoon cayenne pepper\n\n",
 "METHOD\n
 1. Cook potatoes in boiling salted water for 15-20 minutes until tender. Drain, roughly mash with butter, then combine with ham, peas, mint, zest and juice. Season, then chill for 15 minutes.\n
 2. Season flour and place in a bowl. Place egg and crumbs in separate bowls. Using 2 tbs for each, shape mixture into 24 logs. Coat with flour, then egg, then crumbs, then repeat with egg and crumbs.\n
 3. Half-fill a saucepan with oil and heat to 190°C (a cube of bread will turn golden in 30 seconds). Deep-fry croquettes, in batches, for 3-4 minutes until golden. Drain on paper towel.\n
-4. Top aioli with extra mint and serve with croquettes and lemon.\n\n",
+4. Top aioli with extra mint and serve with croquettes and lemon.\n\n", 
 "Prep Time 15 minutes
 Cook Time 30 minutes"
 
@@ -253,7 +252,7 @@ mains.add_recipe "Steak with Mushroom Miso Sauce", "INGREDIENTS\n
 1 cup (250ml) chicken stock\n
 1 1/2 tablespoons white (shiro) miso paste\n
 2 tablespoons thickened cream\n
-2 tablespoons snipped chives\n\n"
+2 tablespoons snipped chives\n\n",
 "METHOD\n
 1. Combine mirin, sesame oil, 2 tablespoons soy and 1 tablespoon sunflower oil in a bowl. Brush over steak and asparagus, then set aside while you make the sauce.\n
 2. Heat remaining sunflower oil in a frypan over medium-high heat. Add mushrooms and soften for 1-2 minutes. Stir in sugar, stock, miso, cream and remaining soy, bring to the boil, then cook over low heat for 1-2 minutes until sauce is thickened slightly. Keep warm.\n
@@ -354,7 +353,7 @@ GLUTEN-FREE BUTTERSCOTCH SAUCE\n
 8. To make the sauce, heat the ingredients in a small saucepan on low until the butter is melted, then increase the heat and simmer for 5 minutes or until the sauce thickens slightly.\n
 9. Cut the warm cake into squares and serve with fresh cream and the butterscotch sauce.\n\n",
 "Prep Time 20 minutes
-Cooking Time 55 minutes",
+Cooking Time 55 minutes"
 
 desserts.add_recipe "Pancakes with Hot Chocolate Sauce", "INGREDIENTS\n
 125g plain flour\n
@@ -394,8 +393,3 @@ Icing sugar, to dust\n\n",
 4. Coat each jaffle in flour, followed by egg and breadcrumbs. In 4 batches, deep-fry jaffles for 2 minutes each side or until crisp and golden. Drain on paper towel.\n
 5. Immediately sandwich 2 jaffles together with a big scoop of ice cream and repeat to create 4 ice cream sandwiches. Dust with icing sugar and serve warm.\n\n",
 "Prep Time 20 minutes"
-
-#   p vegan_snacks.return_gluten_free_key 
-
-    
- 
