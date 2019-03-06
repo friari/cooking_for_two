@@ -18,12 +18,13 @@ We would like to implement a feature that writes the ingredients to a text file 
 
 Instructions
 ****************************
-1. In terminal, make sure you are in the directory that houses the program.
-2. type "cd src" to take you to the source code files so you can run the program.
-3. Run the program by typing "ruby index.rb"
-4. Answer the prompt for your name by typing in your name.
-5. Answer the following prompts by typing 'yes' or 'no'.
-6. Receive the perfect recipe for date night!
+1. In terminal, type in 'gem install colorize'
+2. In terminal, make sure you are in the directory that houses the program.
+3. type "cd src" to take you to the source code files so you can run the program.
+4. Run the program by typing "ruby index.rb"
+5. Answer the prompt for your name by typing in your name.
+6. Answer the following prompts by typing 'yes' or 'no'.
+7. Receive the perfect recipe for date night!
 
 Screenshots of the Program
 ****************************
