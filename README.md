@@ -1,5 +1,8 @@
 README
 
+COOKING FOR TWO
+By Ari Friedgut and Alex Baulderstone
+
 Description
 ****************************
 Can't decide what to cook for your date?
@@ -30,7 +33,12 @@ Screenshots of the Program
 
 Screenshots of the Code
 ****************************
-
+![cookbook1](docs/cookbook_class1.png)
+![cookbook2](docs/cookbook_class2.png)
+![index1](docs/index1.png)
+![index2](docs/index2.png)
+![index3](docs/index3.png)
+![index4](docs/index4.png)
 
 PLANNING
 ****************************
@@ -93,10 +101,10 @@ There were three documents to put together
 - different objects based on the meal requirements
 - an index.rb file from which our program would run
 
-MORE TRELLO SCREENSHOTS
-[link 1](docs/trello_1.jpg)
-[link 2](docs/trello_2.jpg)
-[link 3](docs/trello_3.jpg)
+MORE TRELLO SCREENSHOTS  
+[link 1](docs/trello_1.jpg)  
+[link 2](docs/trello_2.jpg)  
+[link 3](docs/trello_3.jpg)  
 
 FLOWCHART
 ****************************
