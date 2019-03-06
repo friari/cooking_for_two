@@ -55,7 +55,7 @@ After this, we sourced recipes from the internet
 Our aim is to ultimately include the recipes into different hashes for each branch. This is how we envisioned it.
 ![a relative link](docs/hash_recipes.jpg)
 
-As this was happening, we were uploading our plans to a shared Trello board we created
+As all this was happening, we were uploading our plans to a shared Trello board we created
 ![a relative link](docs/trello.jpg)
 
 as well as keeping up constant communication via Slack.
@@ -66,3 +66,5 @@ as well as keeping up constant communication via Slack.
 ![a relative link](docs/slack_5.jpg)
 
 As Ari worked on the Description and Planning section of our README.md file, Alex put together a .rb doc that defined a Cookbook class.
+
+Ari then coded a doc that referenced the Cookbook class and created objects for each potential outcome as Alex worked on the control flow of the program.
