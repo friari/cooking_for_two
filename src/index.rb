@@ -425,7 +425,8 @@ Icing sugar, to dust\n\n",
     def output_gf_recipe (argument)
             system "clear"
             gf_key = argument.return_gluten_free_key
-            puts gf_key
+            #change key from symbol to string, remove the "_gf" identifier, and colorize
+            puts gf_key.to_s.chomp("_gf").colorize(:magenta)
             puts argument.custom_fetch gf_key
     end
 

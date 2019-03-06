@@ -45,7 +45,8 @@ class Cookbook
     def output_recipe
         system "clear"
         key = @recipes.keys.sample
-        puts key.to_s.colorize(:magenta)
+        #convert key to string, removes "_gf" IF it's on the end of the string and colorizes
+        puts key.to_s.chomp("_gf").colorize(:magenta)
         puts @recipes[key]  
     end
 
