@@ -440,8 +440,9 @@ puts "Hi! Welcome to #{prog_name} What is your name?"
 user_name = gets.chomp
 system "clear" 
 puts "So #{user_name} do you have a date tonight?"
-#turn answer into single downcase letter to allow some varation on input
+#turn answer into single downcase letter to allow some varation on input eg "yeah", "yep", "nope" etc
 date = gets.chomp.downcase.chars.first
+#validates input, will not allow app to progress unless the input is correct
 until (date == "y") or (date == "n")
     system "clear"
     puts "Please answer either yes or no!"
@@ -454,13 +455,15 @@ when "y"
     puts "That's awesome! What kind of meal did you want to cook for them?"
     puts "Please choose either a snack, main, or dessert"
     meal_choice = gets.chomp.downcase
+    #another until loop to validate meal choice
     until meal_choice == "snack" or meal_choice == "main" or meal_choice == "dessert"
         system "clear"
         puts "Please choose either a snack, main, or dessert"
         meal_choice = gets.chomp.downcase
     end
     
-
+     #control flow to determine which cookbook will be used, note that gluten free recipes reside within existing cookbooks
+     # see output_recipe and output_gf_recipe methods if confused by the following
     case meal_choice
         when "snack"
             system "clear"
@@ -468,10 +471,8 @@ when "y"
                 system "clear"
                 puts "Okay, you're cooking a vegan #{meal_choice}"
                 if gluten_question == "y"
-                    #use the vegan snack cookbook with the return gluten free key metho
                     output_gf_recipe vegan_snacks
                 else 
-                    #use the vegan snack cookbook on its own
                     vegan_snacks.output_recipe 
                 end
 
