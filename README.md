@@ -2,6 +2,9 @@ README
 
 COOKING FOR TWO
 By Ari Friedgut and Alex Baulderstone
+GITHUB LINK - [cooking_for_two_github](https://github.com/fxbip/cooking_for_two)  
+![branches](docs/branches.png)
+![master](docs/master.png)
 
 Description
 ****************************
@@ -25,11 +28,11 @@ Instructions
 Screenshots of the Program
 ****************************
 ![program1](docs/program1.png)
-![program2](docs/program1.png)
-![program3](docs/program1.png)
-![program4](docs/program1.png)
-![program5](docs/program1.png)
-![program6](docs/program1.png)
+![program2](docs/program2.png)
+![program3](docs/program3.png)
+![program4](docs/program4.png)
+![program5](docs/program5.png)
+![program6](docs/program6.png)
 
 Screenshots of the Code
 ****************************
