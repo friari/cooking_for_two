@@ -1,11 +1,13 @@
-#METHODS AND REQUIRED FILES 
+require_relative "Cookbook"
+
+
     #created method to ask if date is vegan incase we expand meal options 
     def vegan_question
         puts "It's #{Time.now.year} so we need to ask, is your date a vegan?"
         answer = gets.chomp.downcase.chars.first
         until answer == "y" or answer == "n"
             system "clear"
-            puts "Is your date a vegan? Please answer yes or no"
+            puts "Is your date a vegan? Please answer yes or no:"
             answer = gets.chomp.downcase.chars.first
          end
          answer
@@ -22,6 +24,8 @@
          end
          answer
         end
+
+        
 
 
 #user input for later functionality
@@ -54,10 +58,11 @@ case meal_choice
             puts "Okay a vegan #{meal_choice}"
             if gluten_question == "y"
                 #use the vegan snack cookbook with the return gluten free key method
-                puts "vegan gluten free snack"
+                gf_key = vegan_snacks.return_gluten_free_key
+                puts vegan_snacks.custom_fetch gf_key
             else 
                 #use the vegan snack cookbook on its own
-                puts "vegan snack"
+                puts vegan_snacks.random_key 
             end
 
         else 

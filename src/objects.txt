@@ -1,7 +1,4 @@
-require_relative "Cookbook"
-
 vegan_snacks = Cookbook.new
-
 vegan_snacks.add_recipe "vegan_nacho_cheese_gf", "INGREDIENTS\n
 1 1/4 cups vegetable broth\n
 1 cup plain non-dairy yogurt\n
@@ -54,7 +51,3 @@ Lemon wedge, to serve\n",
 1.Place chickpeas in a small bowl with the lemon juice and tahini. Mash with a fork, leaving some texture. Season.\n
 2.Combine tomatoes, parsley and oil. Spread chickpea mixture over toast. Top with tomato salad. Serve with a lemon wedge.\n",
 "Prep Time 5 minutes"
-
-
-    
- 
